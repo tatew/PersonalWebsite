@@ -1,0 +1,61 @@
+body {
+    font-family: JetBrainsMono;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 4.5em;
+    margin: auto;
+    color: white;
+    padding: 0.5em;
+    background-color:darkturquoise;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 60%;
+    margin: auto auto;
+    color: white;
+    max-width: 700px;
+}
+
+a:hover {
+    color: darkturquoise;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 1em 1em;
+}
+
+.activePage, .activePage:hover{
+    background-color: darkturquoise;
+    color: white;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.photos {
+    width: 90%;
+    margin: auto auto;
+}
+
+
+
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(webfonts/JetBrainsMono-Regular.woff2)
+}
