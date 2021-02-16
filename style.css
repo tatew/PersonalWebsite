@@ -1,6 +1,8 @@
 body {
     font-family: JetBrainsMono;
     margin: auto;
+    position: relative;
+    min-height: 100vh;
 }
 
 #title {
@@ -34,7 +36,7 @@ nav {
 }
 
 a:hover {
-    color: darkturquoise;
+    color: deeppink;
 }
 
 a {
@@ -44,14 +46,14 @@ a {
 }
 
 .link {
-    color: rgb(6, 132, 134);
+    color: darkturquoise;
     padding: 0;
     text-decoration: none;
 }
 
 
 .activePage, .activePage:hover{
-    background-color: darkturquoise;
+    background-color: deeppink;
     color: white;
 }
 
@@ -77,6 +79,24 @@ img {
 
 .projects {
     text-align: center;
+}
+
+#line {
+    background-color: deeppink;
+    height: 0.3em
+}
+
+footer {
+    background-color: darkturquoise;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+}
+
+.content {
+    padding-bottom: 5vh;
 }
 
 
